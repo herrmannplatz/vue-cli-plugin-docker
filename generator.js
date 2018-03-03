@@ -1,9 +1,10 @@
 module.exports = (api, options, rootOptions) => {
   api.extendPackage({
     scripts: {
-      "docker": 'docker run .'
+      'docker': 'docker build -t app && docker run -d -p 8080:8080 app'
     }
   })
 
   api.render('./Dockerfile')
+  api.render('./.dockerignore')
 }

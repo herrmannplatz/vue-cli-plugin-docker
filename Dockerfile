@@ -1,6 +1,10 @@
 FROM node:8.9-alpine
 
+EXPOSE 8080
+
 WORKDIR /usr/src/app
+
+RUN npm install serve -g
 
 COPY package.json package-lock.json ./
 
@@ -8,6 +12,6 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 8080
+RUN npm run build
 
-CMD ["npm", "start"]
+CMD ["serve", "--single", "--port", "8080", "dist"]
