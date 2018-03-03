@@ -1,7 +1,7 @@
 {
   "name": "vue-cli-plugin-docker",
-  "version": "0.0.0-semantic-release",
-  "description": "module vue-cli-plugin-docker",
+  "version": "0.0.2",
+  "description": "🐳 vue-cli 3.x plugin to serve your vue app using Docker",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
@@ -11,7 +11,13 @@
     "commitmsg": "validate-commit-msg",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "keywords": [],
+  "keywords": [
+    "vue",
+    "docker",
+    "SPA",
+    "deploy",
+    "serve"
+  ],
   "author": "herrmannplatz <rene@herrmannplatz.de>",
   "license": "MIT",
   "dependencies": {},

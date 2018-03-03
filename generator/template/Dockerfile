@@ -1,6 +1,8 @@
-FROM node:8.9-alpine
+FROM node:alpine
 
 EXPOSE 8080
+
+RUN apk add --no-cache nginx
 
 WORKDIR /usr/src/app
 
