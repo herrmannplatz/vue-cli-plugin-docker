@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-docker",
-  "version": "0.0.2",
+  "version": "0.0.0-semantic-release",
   "description": "🐳 vue-cli 3.x plugin to serve your vue app using Docker",
   "main": "index.js",
   "scripts": {
