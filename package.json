@@ -18,7 +18,7 @@
     "deploy",
     "serve"
   ],
-  "author": "herrmannplatz <rene@herrmannplatz.de>",
+  "author": "René Herrmann <rene@herrmannplatz.de>",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
