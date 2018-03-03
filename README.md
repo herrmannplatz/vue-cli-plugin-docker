@@ -30,3 +30,6 @@ Serve your vue app.
 npm run docker
 ```
 
+## Contribution
+
+In order to let semantic release do its job use `npm run commit` when committing changes.
