@@ -1,5 +1,7 @@
 # vue-cli-plugin-docker
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/herrmannplatz/vue-cli-plugin-docker.svg)](https://greenkeeper.io/)
+
 [![npm version](https://badge.fury.io/js/vue-cli-plugin-docker.svg)](https://badge.fury.io/js/vue-cli-plugin-docker) [![Build Status](https://travis-ci.org/herrmannplatz/vue-cli-plugin-docker.svg?branch=master)](https://travis-ci.org/herrmannplatz/vue-cli-plugin-docker)
 
 > 🐳 vue-cli 3.x plugin to serve your vue app using Docker
