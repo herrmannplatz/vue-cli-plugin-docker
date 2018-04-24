@@ -1,5 +1,5 @@
 # build static files
-FROM node:alpine as frontend
+FROM node:alpine as build
 WORKDIR /usr/src/app
 COPY package.json .
 RUN npm install --silent
