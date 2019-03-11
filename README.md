@@ -1,35 +1,23 @@
 # vue-cli-plugin-docker
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/herrmannplatz/vue-cli-plugin-docker.svg)](https://greenkeeper.io/)
+[![npm version](https://badge.fury.io/js/vue-cli-plugin-docker.svg)](https://badge.fury.io/js/vue-cli-plugin-docker) [![Build Status](https://travis-ci.org/herrmannplatz/vue-cli-plugin-docker.svg?branch=master)](https://travis-ci.org/herrmannplatz/vue-cli-plugin-docker) [![Greenkeeper badge](https://badges.greenkeeper.io/herrmannplatz/vue-cli-plugin-docker.svg)](https://greenkeeper.io/)
 
-[![npm version](https://badge.fury.io/js/vue-cli-plugin-docker.svg)](https://badge.fury.io/js/vue-cli-plugin-docker) [![Build Status](https://travis-ci.org/herrmannplatz/vue-cli-plugin-docker.svg?branch=master)](https://travis-ci.org/herrmannplatz/vue-cli-plugin-docker)
+> 🐳 Dockerize your vue app
 
-> 🐳 vue-cli 3.x plugin to serve your vue app using Docker
-
-## Getting started
-
-Create or use a vue-cli 3.x project.
+## Installation
 
 ```bash
-vue create my-vue-app
+$ vue add docker
 ```
 
-Install the vue-cli-plugin-docker plugin
+## Usage
+
+It will create a `Dockerfile` and `.dockerignore` in the root of your project. [serve](https://www.npmjs.com/package/serve) is used to serve your vue single page application.
+
+The following command will build and run the image.
 
 ```bash
-npm install --save-dev vue-cli-plugin-docker
-```
-
-Invoke the plugin.
-
-```bash
-vue invoke vue-cli-plugin-docker
-```
-
-Serve your vue app.
-
-```bash
-npm run docker
+$ npm run docker
 ```
 
 ## Contribution
