@@ -16,7 +16,7 @@
   "author": "René Herrmann <rene@herrmannplatz.de>",
   "license": "MIT",
   "devDependencies": {
-    "semantic-release": "^17.0.4",
+    "semantic-release": "^17.2.3",
     "standard": "^14.3.1"
   },
   "repository": {
