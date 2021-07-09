@@ -1,6 +1,6 @@
 # vue-cli-plugin-docker
 
-[![npm version](https://badge.fury.io/js/vue-cli-plugin-docker.svg)](https://badge.fury.io/js/vue-cli-plugin-docker) [![Build Status](https://travis-ci.org/herrmannplatz/vue-cli-plugin-docker.svg?branch=master)](https://travis-ci.org/herrmannplatz/vue-cli-plugin-docker) [![Greenkeeper badge](https://badges.greenkeeper.io/herrmannplatz/vue-cli-plugin-docker.svg)](https://greenkeeper.io/)
+[![npm version](https://badge.fury.io/js/vue-cli-plugin-docker.svg)](https://badge.fury.io/js/vue-cli-plugin-docker) [![Build Status](https://travis-ci.org/herrmannplatz/vue-cli-plugin-docker.svg?branch=master)](https://travis-ci.org/herrmannplatz/vue-cli-plugin-docker)
 
 > 🐳 Dockerize your vue app
 
@@ -22,4 +22,4 @@ $ npm run docker
 
 ## Contribution
 
-In order to let semantic release do its job use `npm run commit` when committing changes.
+Ensure your commit messages follow the [Angular Commit Message Conventions](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format).
